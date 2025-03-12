@@ -129,14 +129,6 @@ html {
     justify-content: center;
     align-items: center;
   }
-  .logo-lines {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 17px;
-    margin-right: 17px;
-  }
   
   .about {
     padding-bottom: 10px;
@@ -157,18 +149,7 @@ html {
     color: #808080;
     margin-bottom: 10px;
   }
-  .about-address {
-    font-size: 15px;
-    margin-bottom: 15px;
-    font-family: Roboto;
-  }
-  .about-contacts {
-    font-size: 8px;
-  }
-  .about-contacts__link {
-    text-decoration: none;
-    color: #777777;
-  }
+  
   .heading_dark {
     font-size: 20px;
     font-weight: 400;
@@ -308,22 +289,5 @@ html {
   }
   
   
-      .heading_skills {
-          margin-bottom: 48px;
-      }
-      .skills-badges {
-          list-style: none; 
-          padding: 0;
-          display: flex; 
-          flex-wrap: wrap; 
-          gap: 8px; 
-      }
-      .skill-badge {
-          background-color: #313e4b; 
-          color: white;
-          padding: 6px 12px;
-          border-radius: 4px;
-          font-size: 11px;
-          text-transform: uppercase;
-      }
+     
   
