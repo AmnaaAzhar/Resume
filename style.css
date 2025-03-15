@@ -4,6 +4,22 @@ html {
   *, *:after, *:before {
     box-sizing: inherit;
   }
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #222;
+}
   .container {
     display: flex;
     max-width: 900px;
@@ -51,6 +67,8 @@ html {
   .heading-light {
     color: #ffffff;
     border-bottom: 2px #5a5a5a dashed;
+   
+
   }
   .contacts {
     margin-bottom: 70px;
@@ -89,7 +107,7 @@ html {
       justify-content: center;
       align-items: center;
       padding: 10px 20px; 
-      background-color: #717172; 
+      background-color: rgb(71, 101, 119); 
       color: white; 
       border-radius: 6px;
       margin-bottom: 30px; 
@@ -106,7 +124,7 @@ html {
   }
   
   .resume {
-    padding: 25px 30px;
+    /* padding: 25px 30px; */
     flex-basis: 63%;
     background-color: #fff;
   }
@@ -141,12 +159,13 @@ html {
     text-transform: uppercase;
     word-spacing: 10.75px;
     margin-bottom: 2px;
+    color: #09345f;
   }
   .position {
     display: inline-block;
-    font-size: 9px;
+    font-size: 12px;
     text-transform: uppercase;
-    color: #808080;
+    color: #09345f;
     margin-bottom: 10px;
   }
   
@@ -155,6 +174,7 @@ html {
     font-weight: 400;
     border-bottom: 1px solid  #313e4b;
     margin-bottom: 37px;
+    color: #09345f;
   }
   .list {
     list-style: none;
@@ -163,7 +183,7 @@ html {
   .list-item {
     position: relative;
     padding-left: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-bottom: 30px;
     
   }
@@ -175,18 +195,24 @@ html {
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    background-color: #000;
+    background-color: #2b4661;
   }
   .list-item__title {
     font-size: 15px;
     text-transform: uppercase;
     margin-bottom: 5px;
+  color: #09345f;
   }.list-item__date {
     font-size: 12px;
     text-transform: uppercase;
+    /* color: #313e4b; */
+
+
+    color: rgb(71, 101, 119);
   }
   .list-item__text {
     font-size: 12px;
+    
     
     
   
