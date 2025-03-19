@@ -6,73 +6,69 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
  
 </head>
 <body>
-    <div class="container">
+    <div class="container"itemscope itemtype="https://schema.org/Person">
         <div class="profile">
-          <div class="profile-photo"></div>
+          <div class="profile-photo"itemprop="image"></div>
           <div class="profile-info">
           <div class="contacts">
               <div class="contacts-item">
-                 <h3 class="contacts-title">
+                 <h3 class="contacts-title" >
                    <i class="fas fa-phone-volume"></i>
                    Phone
                 </h3>
-                <a href="+923250172015" class="contacts-text">+923250172015</a>
+                <a href="tel:+923250172015" class="contacts-text"itemprop="telephone">+923250172015</a>
               </div>
               <div class="contacts-item">
                 <h3 class="contacts-title">
                    <i class="fas fa-envelope"></i>
                    Email
                 </h3>
-                <a href="amnaazharphw@gamil.com" class="contacts-text">amnaazharphw@gmail.com</a>
+                <a href="mailto:amnaazharphw@gmail.com" class="contacts-text"itemprop="email">amnaazharphw@gmail.com</a>
               </div>
               
-              <div class="contacts-item">
+              <div class="contacts-item"itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                 <h3 class="contacts-title">
                    <i class="fas fa-map-marker-alt"></i>
                   Home
                 </h3>
                 <address class="contacts-text">
-                  Sargodha,Pakistan 
+                    <span itemprop="addressLocality">Sargodha</span>,
+                   
+                    <span itemprop="addressCountry">Pakistan</span>
                 </address>
               </div>
             </div>
             <h2 class="heading heading-light">SKILLS</h2>
             <div class="languages">
-              <div class="language"><span class="language-text">HTML</span></div>
-              <div class="language"><span class="language-text">CSS</span></div>
-              <div class="language"><span class="language-text">C++</span></div>
-              <div class="language"><span class="language-text">BootStrap</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">HTML</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">CSS</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">C++</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">BootStrap</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">Javascript</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">PHP</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">Python</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">Java</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">React Js</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">Node Js</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">Express Js</span></div>
+              <div class="language"><span class="language-text" itemprop="skills">MongoDB</span></div>
              
-              <div class="language"><span class="language-text">Javascript</span></div>
-              <div class="language"><span class="language-text">PHP</span></div>
-              <div class="language"><span class="language-text">Python</span></div>
-              <div class="language"><span class="language-text">Java</span></div>
-              <div class="language"><span class="language-text">React Js</span></div>
-              <div class="language"><span class="language-text">Node Js</span></div>
-              <div class="language"><span class="language-text">Express Js</span></div>
-              <div class="language"><span class="language-text">MongoDB</span></div>
-             
-
             </div>
             <h2 class="heading heading-light">Interests</h2>
             <div class="languages">
-              <div class="language"><span class="language-text">Web development</span></div>
-              <div class="language"><span class="language-text">Badminton</span></div>
-              <div class="language"><span class="language-text">Photography</span></div>
+              <div class="language"><span class="language-text"itemprop="knowsAbout">Web development</span></div>
+              <div class="language"><span class="language-text"itemprop="knowsAbout">Badminton</span></div>
+              <div class="language"><span class="language-text"itemprop="knowsAbout">Photography</span></div>
             </div>
             <h2 class="heading heading-light">Languages</h2>
             <div class="languages">
-              <div class="language"><span class="language-text">Urdu</span></div>
-              <div class="language"><span class="language-text">English</span></div>
+              <div class="language"><span class="language-text" itemprop="knowsLanguage">Urdu</span></div>
+              <div class="language"><span class="language-text"itemprop="knowsLanguage">English</span></div>
              
-
             </div>
-
-
           
           </div>
         </div>
@@ -80,9 +76,9 @@
           <div class="resume-wrap">
             
             <div class="about">
-              <h1 class="name">Amna   Azhar</h1>
-              <span class="position">Web Developer</span>
-              <p class="profile-text">
+              <h1 class="name"itemprop="name">Amna Azhar</h1>
+              <span class="position"itemprop="jobTitle">Web Developer</span>
+              <p class="profile-text"itemprop="description">
                 “I am a highly motivated, goal-focused individual with strong communication skills and a passion for
                 innovative problem-solving. I am committed to continuous learning, delivering efficient solutions, and
                 driving organizational success while adapting to evolving technologies” 
@@ -93,38 +89,47 @@
               <h2 class="heading heading_dark">
                 Education
               </h2>
-              <ul class="list">
-                <li class="list-item list-item_non-border">
-                  <h4 class="list-item__title">Bachelor of Computer Science </h4>
-                  <span class="list-item__date">Dec 2021 - June 2025</span>
-                  <p class="list-item__text">University of Sargodha</p>
-                </li>
-              </ul>
-              <ul class="list">
-                <li class="list-item list-item_non-border">
-                  <h4 class="list-item__title">Intermediate </h4>
-                  <span class="list-item__date">Aug 2019 - Sep 2021</span>
-                  <p class="list-item__text">Reader College,Bhalwal </p>
-                </li>
-              </ul>
+              
+<ul class="list" itemscope itemtype="http://schema.org/EducationalOccupationalProgram">
+  <li class="list-item list-item_non-border">
+    <div itemprop="provider" itemscope itemtype="http://schema.org/EducationalOrganization">
+      <p class="list-item__title" itemprop="name">University of Sargodha</p>
+    </div>
+    <h4 class="list-item__text" itemprop="educationalProgramMode">Bachelor of Computer Science</h4>
+    <span class="list-item__date">
+      <time itemprop="startDate" datetime="2021-12">Dec 2021</time> – 
+      <time itemprop="endDate" datetime="2025-06">June 2025</time>
+    </span>
+  </li>
+</ul>
+              
+              
+<ul class="list" itemscope itemtype="http://schema.org/EducationalOccupationalProgram">
+  <li class="list-item list-item_non-border">
+    <div itemprop="provider" itemscope itemtype="http://schema.org/EducationalOrganization">
+      <p class="list-item__title" itemprop="name">Reader's College,Bhalwal</p>
+    </div>
+    <h4 class="list-item__text" itemprop="educationalProgramMode">Intermediate</h4>
+    <span class="list-item__date">
+      <time itemprop="startDate" datetime="2019-8">Aug 2019</time> – 
+      <time itemprop="endDate" datetime="2021-9">Sep 2021</time>
+    </span>
+  </li>
+</ul>
             </div>
-            <div class="experience">
+            <div class="experience"itemprop="worksFor"itemscope itemtype="https://schema.org/Organization">
               <h2 class="heading heading_dark">
-                Experience 
+                  Experience 
               </h2>
               <ul class="list">
                 <li class="list-item">
-                  <h4 class="list-item__title">CodSoft</h4>
-                  <span class="list-item__date">Feb 2024 - March 2024</span>
-                  <p class="list-item__text"> During my remote internship at Codesoft, I created a
-          professional portfolio, a calculator app, and a landing page
+                  <h4 class="list-item__title"itemprop="name">CodSoft</h4>
+                  <p class="list-item__text" itemprop="description"> During my remote internship at Codesoft, I created a
+                    professional portfolio, a calculator app, and a landing page
                     utilizing HTML, CSS, and JavaScript. These projects offered
                     valuable hands-on experience and significantly
                     strengthened my web development skills</p>
-                </li>
-               
-               
-               
+                </li> 
               </ul>
             </div>
             <div class="experience">
@@ -134,32 +139,35 @@
               <ul class="list">
                
                  
-                <li class="list-item">
-                  <h4 class="list-item__title">FoodApp – MERN Stack Project </h4>
-                  <span class="list-item__date">May 2024 - Aug 2024</span>
-                  <p class="list-item__text">Developed FoodApp using the MERN stack, allowing users to browse and order food with features like
+                <li class="list-item"itemprop="publishingPrinciples" itemscope itemtype="https://schema.org/CreativeWork">
+                  <h4 class="list-item__title"itemprop="name">FoodApp – MERN Stack Project </h4>
+                 
+                  <p class="list-item__text"itemprop="abstract">Developed FoodApp using the MERN stack, allowing users to browse and order food with features like
                     secure user authentication, cart management, and a seamless user experience. This project highlights
                     strong full-stack development skills and a focus on functionality and user-centric design. </p>
                 </li>
-                <li class="list-item">
-                  <h4 class="list-item__title">Interactive JavaScript Projects  </h4>
-                  <span class="list-item__date">Oct 2024 - Nov 2024</span>
-                  <p class="list-item__text">Developed engaging JavaScript projects, including a Rock-Paper-Scissors game with real-time score
+                <li class="list-item"itemprop="publishingPrinciples" itemscope itemtype="https://schema.org/CreativeWork">
+                  <h4 class="list-item__title"itemprop="name">Interactive JavaScript Projects  </h4>
+
+                  <p class="list-item__text"itemprop="abstract">Developed engaging JavaScript projects, including a Rock-Paper-Scissors game with real-time score
                     updates and result messages, a Tic Tac Toe game with a 3x3 grid, turn-based play, automatic win detection,
                     and score resets, and a Currency Converter utilizing an API for real-time exchange rates, ensuring accurate
                     and seamless currency conversions. </p>
                 </li>
-                <li class="list-item">
-                  <h4 class="list-item__title">LLM-Driven Brand Reputation Analysis </h4>
-                  <span class="list-item__date">Sep 2024 - Present</span>
-                  <p class="list-item__text">This is my Final Year Project, applying NLP to analyze customer sentiments and product insights. It
+                <li class="list-item"itemprop="publishingPrinciples" itemscope itemtype="https://schema.org/CreativeWork">
+                  <h4 class="list-item__title"itemprop="name">LLM-Driven Brand Reputation Analysis </h4>
+                  <p class="list-item__text"itemprop="abstract">This is my Final Year Project, applying NLP to analyze customer sentiments and product insights. It
                     supports brands in tracking their reputation, detecting trends, and making informed, data-driven decisions
                     for better market positioning. </p>
+                </li>
+                <li class="list-item"itemprop="publishingPrinciples" itemscope itemtype="https://schema.org/CreativeWork">
+                  <h4 class="list-item__title"itemprop="name">Rent a Car Management System  </h4>
+                 
+                  <p class="list-item__text"itemprop="abstract">Developed a web-based car rental platform with a user-friendly interface for browsing, booking, and managing rentals. The admin panel streamlines inventory, pricing, and booking management, enhancing customer experience and operational efficiency.</p>
                 </li>
               </ul>
             </div>
          
-
             </div>
           </div>
         </div>
